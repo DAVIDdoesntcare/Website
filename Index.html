@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>David's Profile</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">David 🐾</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-blob blob1"></div>
+    <div class="hero-blob blob2"></div>
+    <div class="hero-content">
+      <div class="profile-photo-wrap">
+        <img src="images/profile.jpg" alt="David" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+        <div class="profile-fallback">🚗</div>
+      </div>
+      <h1>Hey, I'm <span class="cyan">David</span> 👋</h1>
+      <p class="tagline"><span id="typed"></span><span class="cursor">|</span></p>
+      <a href="#about" class="btn">Get to know me ↓</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-card card">
+        <div class="about-emoji">🦁</div>
+        <p>
+          I'm <strong>David</strong>, an 11-year-old animal lover, athlete, and aspiring coder!
+          I share my home with <strong>2 cats, 10 fish, shrimp, and a colony of ants</strong> — yes, real ants! Lasius Neoniger to be exact.
+          When I'm not taking care of my pets, you'll find me on the soccer field, the lacrosse pitch, or reading a good book.
+          I also know how to code in <strong>Scratch</strong> — technology is pretty cool. 
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt reveal">
+    <div class="section-inner">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card card hover-pop">⚽<span>Soccer</span></div>
+        <div class="skill-card card hover-pop">🥍<span>Lacrosse</span></div>
+        <div class="skill-card card hover-pop">🎾<span>Tennis</span></div>
+        <div class="skill-card card hover-pop">🏸<span>Squash</span></div>
+        <div class="skill-card card hover-pop">💻<span>Scratch Coding</span></div>
+        <div class="skill-card card hover-pop">🐾<span>Pet Care</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies" class="section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">Hobbies</h2>
+      <div class="hobbies-grid">
+        <div class="hobby-card card hover-pop">
+          <div class="hobby-icon">🐱</div>
+          <h3>Pet Care</h3>
+          <p>I love taking care of my 2 cats, 10 fish, shrimp, and ants. </p>
+        </div>
+        <div class="hobby-card card hover-pop">
+          <div class="hobby-icon">📚</div>
+          <h3>Reading</h3>
+          <p>Books are really fun to read.</p>
+        </div>
+        <div class="hobby-card card hover-pop">
+          <div class="hobby-icon">⚽</div>
+          <h3>Sports</h3>
+          <p>Soccer, lacrosse, tennis, squash — I play them all.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section alt reveal">
+    <div class="section-inner">
+      <h2 class="section-title">Gallery</h2>
+      <p class="section-sub">Photos coming soon! 📸</p>
+      <div class="gallery-grid">
+        <div class="gallery-item hover-pop"><span>🐱</span><p>My Cats</p></div>
+        <div class="gallery-item hover-pop"><span>🐟</span><p>My Fish Tank</p></div>
+        <div class="gallery-item hover-pop"><span>🐜</span><p>My Ant Colony</p></div>
+        <div class="gallery-item hover-pop"><span>⚽</span><p>Soccer</p></div>
+        <div class="gallery-item hover-pop"><span>🥍</span><p>Lacrosse</p></div>
+        <div class="gallery-item hover-pop"><span>📖</span><p>Reading Time</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">Want to say hi or know more? Find me here!</p>
+      <div class="contact-grid">
+        <div class="contact-card card hover-pop">
+          <span>📧</span>
+          <p>Email coming soon</p>
+        </div>
+        <div class="contact-card card hover-pop">
+          <span>🌐</span>
+          <p>Social links coming soon</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Made (with help) by David &copy; 2025</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
